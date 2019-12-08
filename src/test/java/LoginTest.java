@@ -17,10 +17,10 @@ public class LoginTest {
 
     }
     @Test
-    public void doLogin() throws InterruptedException {
+    public void doLogin() {
 
         driver.get("http://gmail.com");
-        driver.findElement(By.id("identifierId")).sendKeys("dfsvsv");
+        driver.findElement(By.id("identifierId")).sendKeys("bijaysanjel@gmail.com");
         driver.findElement(By.xpath("//span[text()='Next']")).click();
         driver.findElement(By.name("password")).sendKeys("password");
 
