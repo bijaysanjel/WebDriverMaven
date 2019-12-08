@@ -21,7 +21,7 @@ public class LoginTest {
 
         driver.get("http://gmail.com");
         driver.findElement(By.id("identifierId")).sendKeys("dfsvsv");
-        driver.findElement(By.xpath("//span[text()='Next']")).click();
+        driver.findElement(By.xpath("//span[text()='Next']")).click();//clicking next button
 
     }
     @AfterSuite
